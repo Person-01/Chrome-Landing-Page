@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artzy-Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="/images/icons/apple-icon-180.png">
+    <meta name="theme-color" content="#FFFFFF">
+</head>
+<body>
+    <div class="intro d-flex justify-content-center align-items-center">
+        <div class="logo">
+            <img class="logo-width" src="../images/logo_artzy.png" alt="">
+        </div>
+    </div>
+    <div class="login">
+        <header>
+            <h1 class="title">Log in</h1>
+            <img class="login-close" src="../images/close.png" alt="">
+        </header>
+        <hr class="login-line" style="margin-top: -20px;">
+            <div class="login-form">
+                <input class="email" type="text" placeholder="EMAIL" name="email" id="email" size="37" required>
+                <input class="password" type="password" placeholder="PASSWORD" name="password" id="password" size="37" required>
+                <img class="questionMark" src="../images/question_mark.png" alt="">
+                <input type="submit" class="login-button" onclick="loginn();" value="LOG IN">
+            </div>
+    </div>
+    <script src="../js/app.js"></script>
+    <script src="../js/intro.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>
