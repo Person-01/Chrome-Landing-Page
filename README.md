@@ -1,2 +1,2 @@
 # Chrome-Landing-Page
-html, css, js
+html, css, and js
